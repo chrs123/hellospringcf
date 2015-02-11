@@ -1,0 +1,25 @@
+<!doctype html>
+<html data-ng-app=""> <!-- ng-app directive -->
+<head>
+	<title>Simple Cloud Example</title> 
+</head>
+<body>
+
+	<link rel="stylesheet" href="/webjars/bootstrap/3.3.2/css/bootstrap.min.css" />
+	<script type="text/javascript" src="/webjars/angularjs/1.3.10/angular.js"></script>
+
+	<div class="page-header">
+		<h1>Simple Sping App in the Cloud</h1>
+		<small>Frontpage of the app</small>
+	</div>
+
+
+	<div class="container">
+		<div class="jumbotron">
+			Name: <br /> <input type="text" data-ng-model="name" /> 
+			Hello {{ name }}!
+		</div>
+	</div>
+	
+</body>
+</html>
